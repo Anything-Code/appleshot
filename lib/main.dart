@@ -34,8 +34,7 @@ class _DebugOptionsWidgetState extends State<DebugOptionsWidget> {
         appBar: AppBar(
           title: const Text('Debug Options'),
         ),
-        body: Container(
-            child: Stack(children: [
+        body: Stack(children: [
           ARView(
             onARViewCreated: onARViewCreated,
             planeDetectionConfig: PlaneDetectionConfig.horizontalAndVertical,
@@ -84,7 +83,7 @@ class _DebugOptionsWidgetState extends State<DebugOptionsWidget> {
               ),
             ),
           ),
-        ])));
+        ]));
   }
 
   void onARViewCreated(
@@ -107,11 +106,14 @@ class _DebugOptionsWidgetState extends State<DebugOptionsWidget> {
   }
 
   void updateSessionSettings() {
-    this.arSessionManager!.onInitialize(
-          showFeaturePoints: _showFeaturePoints,
-          showPlanes: _showPlanes,
-          customPlaneTexturePath: _planeTexturePath,
-          showWorldOrigin: _showWorldOrigin,
-        );
+    arSessionManager!.onInitialize(
+      showFeaturePoints: _showFeaturePoints,
+      showPlanes: _showPlanes,
+      customPlaneTexturePath: _planeTexturePath,
+      showWorldOrigin: _showWorldOrigin,
+    );
   }
 }
+
+void main(List<String> args) => runApp(const MaterialApp(
+    title: 'Appleshot', home: SafeArea(child: DebugOptionsWidget())));
