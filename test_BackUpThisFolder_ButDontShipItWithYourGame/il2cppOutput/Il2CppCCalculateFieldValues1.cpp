@@ -22326,6 +22326,17 @@ struct ARTrackable_t1D98417758C08E98A333CDEC0C2C1688CE10B2E0  : public MonoBehav
 {
 };
 
+// CameraController
+struct CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.XR.ARFoundation.ARCameraManager CameraController::cameraManager
+	ARCameraManager_t6E957EA922911B8447D086D9FB1F860EC967BD9F* ___cameraManager_4;
+	// UnityEngine.GameObject CameraController::dotPrefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___dotPrefab_5;
+	// UnityEngine.GameObject CameraController::dot
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___dot_6;
+};
+
 // UnityEngine.Rendering.CameraSwitcher
 struct CameraSwitcher_t51154680A1498BC397CB176097F7AB3D4DF95085  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -30177,6 +30188,10 @@ struct ARPoseDriver_t443CDE7DCB55B1BA8CCF1E0550F874293019EF16_StaticFields
 
 // UnityEngine.XR.ARFoundation.ARSessionOrigin
 
+// CameraController
+
+// CameraController
+
 // UnityEngine.Rendering.CameraSwitcher
 
 // UnityEngine.Rendering.CameraSwitcher
@@ -34929,12 +34944,15 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5056[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5057[6] = 
 {
 	static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___position_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___color_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___attenuation_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___spotDirection_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___occlusionProbeChannels_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(LightData_tAC4023737E9903DE3F96B993AA323E062ABCB9ED, ___layerMask_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5064[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5060[3] = 
+{
+	static_cast<int32_t>(offsetof(CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5, ___cameraManager_4)),static_cast<int32_t>(offsetof(CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5, ___dotPrefab_5)),static_cast<int32_t>(offsetof(CameraController_tDC4FF0FA10418272A26E5E7539156F4F4A98E8C5, ___dot_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5061[3] = 
 {
 	static_cast<int32_t>(offsetof(FaceMarker_tE6EE754BC79121A13E600BB4B2B6642993A13A20, ___redSpherePrefab_4)),static_cast<int32_t>(offsetof(FaceMarker_tE6EE754BC79121A13E600BB4B2B6642993A13A20, ___arFaceManager_5)),static_cast<int32_t>(offsetof(FaceMarker_tE6EE754BC79121A13E600BB4B2B6642993A13A20, ___arOrigin_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5065[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5062[2] = 
 {
 	static_cast<int32_t>(offsetof(SceneTemplate_RotateCube_tB6D99CC88F0E89517A2E6E071F0334FE69FB44CC, ___rotateSpeed_4)),static_cast<int32_t>(offsetof(SceneTemplate_RotateCube_tB6D99CC88F0E89517A2E6E071F0334FE69FB44CC, ___objectRotation_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5069[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5070[4] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
