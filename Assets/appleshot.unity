@@ -218,7 +218,7 @@ MonoBehaviour:
   m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
-  m_FacingDirection: 2
+  m_FacingDirection: 1
 --- !u!114 &138336792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_FacePrefab: {fileID: 0}
-  m_MaximumFaceCount: 1
+  m_MaximumFaceCount: 5
 --- !u!114 &1957384398
 MonoBehaviour:
   m_ObjectHideFlags: 0
