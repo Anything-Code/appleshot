@@ -30,11 +30,15 @@ extern void FaceMarker_OnDisable_mFD5FC1D87B8CFABB7156BC07C9DB9CEAD23F2F17 (void
 extern void FaceMarker_OnFacesChanged_m2B355103B542DD00A5A6926CA3638B80C9F2805A (void);
 // 0x00000009 System.Void FaceMarker::.ctor()
 extern void FaceMarker__ctor_mF01BB0074C2E7FF11717F42CCE8D8E320CEFBF61 (void);
-// 0x0000000A System.Void SceneTemplate_RotateCube::Update()
+// 0x0000000A System.Void SceneLoader::LoadScene(System.String)
+extern void SceneLoader_LoadScene_mFE87E2AA20B80CBECD7C02C3A6EF68661736A3F1 (void);
+// 0x0000000B System.Void SceneLoader::.ctor()
+extern void SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29 (void);
+// 0x0000000C System.Void SceneTemplate_RotateCube::Update()
 extern void SceneTemplate_RotateCube_Update_mAF2FB34B99E325443A80D60A7EB73DC092EAE9A6 (void);
-// 0x0000000B System.Void SceneTemplate_RotateCube::.ctor()
+// 0x0000000D System.Void SceneTemplate_RotateCube::.ctor()
 extern void SceneTemplate_RotateCube__ctor_mC7E11C05D25FFF6F8D7EA06AAE5598B497365CD2 (void);
-static Il2CppMethodPointer s_methodPointers[11] = 
+static Il2CppMethodPointer s_methodPointers[13] = 
 {
 	CameraController_Awake_mA329C09A8A267A4FABDFE7E67EBA83B1706B04B7,
 	CameraController_Start_m8EAAC188934ECCBD009EC00751280DCFF4D96C71,
@@ -45,28 +49,32 @@ static Il2CppMethodPointer s_methodPointers[11] =
 	FaceMarker_OnDisable_mFD5FC1D87B8CFABB7156BC07C9DB9CEAD23F2F17,
 	FaceMarker_OnFacesChanged_m2B355103B542DD00A5A6926CA3638B80C9F2805A,
 	FaceMarker__ctor_mF01BB0074C2E7FF11717F42CCE8D8E320CEFBF61,
+	SceneLoader_LoadScene_mFE87E2AA20B80CBECD7C02C3A6EF68661736A3F1,
+	SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29,
 	SceneTemplate_RotateCube_Update_mAF2FB34B99E325443A80D60A7EB73DC092EAE9A6,
 	SceneTemplate_RotateCube__ctor_mC7E11C05D25FFF6F8D7EA06AAE5598B497365CD2,
 };
-static const int32_t s_InvokerIndices[11] = 
+static const int32_t s_InvokerIndices[13] = 
 {
-	6340,
-	6340,
-	6340,
-	6340,
-	6340,
-	6340,
-	6340,
-	4943,
-	6340,
-	6340,
-	6340,
+	6562,
+	6562,
+	6562,
+	6562,
+	6562,
+	6562,
+	6562,
+	5106,
+	6562,
+	5232,
+	6562,
+	6562,
+	6562,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	11,
+	13,
 	s_methodPointers,
 	0,
 	NULL,
