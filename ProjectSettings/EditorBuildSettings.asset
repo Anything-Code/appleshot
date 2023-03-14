@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Settings/Project Configuration/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 84ac7e06e631cf8479d0ee4e3f6a06b1
   - enabled: 1
-    path: Assets/Singleplayer.unity
+    path: Assets/Scenes/Singleplayer.unity
     guid: 614585d399709844ba3a8679f65d4d49
   - enabled: 1
-    path: Assets/1vs1.unity
+    path: Assets/Scenes/1vs1.unity
     guid: 4d020f00a27f9a84aa6a7ce562ec587a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
