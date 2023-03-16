@@ -989,7 +989,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1957384395}
   - component: {fileID: 1957384398}
-  - component: {fileID: 1957384397}
   - component: {fileID: 1957384399}
   m_Layer: 0
   m_Name: GameObject
@@ -1013,20 +1012,6 @@ Transform:
   m_Father: {fileID: 138336794}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1957384397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1957384394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FacePrefab: {fileID: 0}
-  m_MaximumFaceCount: 1
 --- !u!114 &1957384398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1055,5 +1040,5 @@ MonoBehaviour:
   m_Pose2D: 1
   m_Pose3D: 1
   m_Pose3DScaleEstimation: 1
-  m_HumanBodyPrefab: {fileID: 919132149155446097, guid: 6f941d6a34ed11741b4aabc22103e5be,
+  m_HumanBodyPrefab: {fileID: 4170946489498523635, guid: 716ecfef1c5fe9147bee16106c56f9a5,
     type: 3}
